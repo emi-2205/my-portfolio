@@ -31,7 +31,7 @@ export const Skills = () => {
     <section className="skill" id="skills">
       <div className="container">
         <div className="row">
-          <div className="col-12" style={{zIndex: '99999'}}>
+          <div className="col-12" style={{ zIndex: '99999' }}>
             <div className="event-card event-card-begin skill-bx wow zoomIn">
               <div className="row">
                 <div className="col-6" style={{ paddingRight: '0px' }}>
@@ -40,10 +40,12 @@ export const Skills = () => {
                 </div>
                 <div className="col-6 event-item" style={{ padding: '0px' }}>
                   <p style={{ color: 'white', marginTop: '30px', padding: '0px' }} className="p-event">
-                    A Master's Degree in computer engineering, specifically in data analytics and artificial intelligence fields.
-                    Projects built:
+                    A Master's Degree course in computer engineering, specifically in data analytics and artificial intelligence fields. <br></br>
+                    Developed projects:
                     <ul>
-                      <li>item 1</li>
+                      <li><a href="https://github.com/emi-2205/my-portfolio.git" style={{ color: 'white', fontStyle: 'italic' }}>My portfolio website</a></li>
+                      <li><a href="https://github.com/MollinoDev/BalillaTournamentLaravelWebApp.git" style={{ color: 'white', fontStyle: 'italic' }}>Goal Counter Web Site</a></li>
+                      <li><a href="https://github.com/emi-2205/KrunkerExtension.git" style={{ color: 'white', fontStyle: 'italic' }}>Google Chrome extension</a></li>
                     </ul>
                   </p>
                 </div>
@@ -57,14 +59,18 @@ export const Skills = () => {
                 </div>
                 <div className="col-6 event-item" style={{ padding: '0px' }}>
                   <p style={{ color: 'white', marginTop: '30px', padding: '0px' }} className="p-event">
-                    A Master's Degree in computer engineering, specifically in data analytics and artificial intelligence fields.
-                    Projects built:
-                    <ul style={{color: 'white'}}>
-                      <li>Web appulcation for Cupra Italia</li>
+                    A Bachelor's Degree course in computer and automation engineering. <br></br>
+                    Developed projects:
+                    <ul style={{ color: 'white' }}>
+                      <li><a href="https://github.com/CupraTribeDev/cupra-tribe.git" style={{ color: 'white', fontStyle: 'italic' }}>Web application for Cupra</a></li>
                       <li>Website for landlords and tenants</li>
-                      <li>Database per fabbrica di stampi</li>
-                      <li>Software Gestionale per negozio di calzature</li>
-                      <li>Applicazione Springboot per l'analisi dei domini</li>
+                      <li><a href="https://github.com/Paolo-Beci/Database-fabbrica-di-stampi" style={{ color: 'white', fontStyle: 'italic' }}>Database for a mold factory</a></li>
+                      <li><a href="https://github.com/Paolo-Beci/Progetto-Ingegneria-del-software-2021" style={{ color: 'white', fontStyle: 'italic' }}>Management software for a shoe store</a></li>
+                      <li><a href="https://github.com/Paolo-Beci/Progetto-OOP" style={{ color: 'white', fontStyle: 'italic' }}>Springboot application for web domains analysis</a></li>
+                    </ul>
+                    Achieved certifications:
+                    <ul style={{ color: 'white' }}>
+                      <li>IELTS certification by British Council- B2 Level</li>
                     </ul>
                   </p>
                 </div>
@@ -78,10 +84,14 @@ export const Skills = () => {
                 </div>
                 <div className="col-6 event-item" style={{ padding: '0px' }}>
                   <p style={{ color: 'white', marginTop: '30px', padding: '0px' }} className="p-event">
-                    A Master's Degree in computer engineering, specifically in data analytics and artificial intelligence fields.
-                    Projects built:
+                    High school diploma from ITIS in electrical and automatic systems. <br></br>
+                    Developed projects:
                     <ul>
                       <li>Old Roofs Control</li>
+                    </ul>
+                    Achieved certifications:
+                    <ul style={{ color: 'white' }}>
+                      <li>Comay certification for use and programming of industrial robots</li>
                     </ul>
                   </p>
                 </div>
