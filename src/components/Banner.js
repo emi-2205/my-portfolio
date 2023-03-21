@@ -54,10 +54,10 @@ export const Banner = () => {
           <Col xs={12} md={12} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""} style={{paddingTop: "60px"}}>
+              <div className={isVisible ? "animate__animated animate__fadeIn" : ""} style={{paddingTop: "100px"}}>
                 <span className="tagline"> 👋 Hello there, my name is Emilio</span>
                 <h1 style= {{color: 'black'}}>{`I'm a student in`} <span className="txt-rotate" dataPeriod="2000" data-rotate='[ "Computer Engineering", "Data Analytics", "Artificial Intelligence" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

@@ -91,8 +91,9 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
+  backdrop-filter: blur(10px);
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #121212ec;
 }
 nav.navbar a.navbar-brand {
     width: 17%;
@@ -233,7 +234,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 150px 0 100px 0;
+  padding: 110px 0 110px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -327,12 +328,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 0 0 100px 0;
   position: relative;
-  background-image: url("./assets/img/banner-bg2.png");
+  background-image: url("./assets/img/banner-bg.png");
 }
 .skill-bx {
-  background: #151515;
+  backdrop-filter: blur(10px);
+  background: #151515a7;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -364,6 +366,39 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+/************ Events Css ************/
+
+.event-card {
+  backdrop-filter: blur(10px);
+  background: #151515a7;
+  border-radius: 0rem 0rem 0rem 0rem;
+  text-align: center;
+  padding: 60px 80px;
+  margin: 0px 30px 0px 30px;
+}
+.event-card-begin {
+  border-radius: 6rem 6rem 0rem 0rem;
+  padding: 100px 80px 0px 80px;
+}
+.event-card-end {
+  border-radius: 0rem 0rem 6rem 6rem;
+  padding: 0px 80px 20px 80px;
+}
+.event-item{
+  display: flex;
+  color: white;
+  text-align: left;
+  padding: 0px;
+}
+.association {
+  display: flex;
+}
+
+.p-event{
+  margin-top: 30px;
+  color: white;
 }
 
 /************ Projects Css ************/
