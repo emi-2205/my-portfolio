@@ -368,6 +368,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+.white{
+  color:white;
+}
 
 /************ Events Css ************/
 
@@ -377,7 +380,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515a7;
   border-radius: 0rem 0rem 0rem 0rem;
   text-align: center;
-  padding: 60px 80px;
+  padding: 30px 80px;
   margin: 0px 30px 0px 30px;
 }
 .event-card-begin {
