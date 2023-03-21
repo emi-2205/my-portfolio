@@ -244,7 +244,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, #41464b8c -5.91%, #41464b 111.58%);
+  background: linear-gradient(90.21deg, #0a330ad9 -5.91%, #2fb523 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 18px;
   font-size: 20px;
@@ -376,8 +376,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .event-card {
   z-index: 9999;
-  backdrop-filter: blur(2px);
-  background: #151515a7;
+  backdrop-filter: blur(6px);
+  background: #000000b4;
   border-radius: 0rem 0rem 0rem 0rem;
   text-align: center;
   padding: 30px 80px;
@@ -386,10 +386,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .event-card-begin {
   border-radius: 6rem 6rem 0rem 0rem;
   padding: 100px 80px 0px 80px;
+  backdrop-filter: blur(8px);
 }
 .event-card-end {
   border-radius: 0rem 0rem 6rem 6rem;
   padding: 0px 80px 20px 80px;
+  backdrop-filter: blur(10px);
 }
 .event-item{
   display: flex;

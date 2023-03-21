@@ -91,7 +91,7 @@ export const Skills = () => {
                     </ul>
                     Achieved certifications:
                     <ul style={{ color: 'white' }}>
-                      <li>Comay certification for use and programming of industrial robots</li>
+                      <li>Comau certification for use and programming of industrial robots</li>
                     </ul>
                   </p>
                 </div>
