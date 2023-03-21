@@ -6,15 +6,31 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+// import './main.built.js';
+
+// import React, { Component } from "react";
+// import { render } from "react-dom";
+// import MouseParticles from "react-mouse-particles";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
+      <MouseParticles
+          g={0}
+          num={0.1}
+          radius={10}
+          life={3}
+          v={0.1}
+          color="random"
+          alpha={0.5}
+          level={6}
+        />
       <Banner />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Footer />
+      {/* <script type="text/javascript" src="main.built.js"></script> */}
     </div>
   );
 }
