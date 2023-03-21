@@ -31,8 +31,8 @@ export const Skills = () => {
     <section className="skill" id="skills">
       <div className="container">
         <div className="row">
-          <div className="col-12">
-            <div className="event-card event-card-begin wow zoomIn">
+          <div className="col-12" style={{zIndex: '99999'}}>
+            <div className="event-card event-card-begin skill-bx wow zoomIn">
               <div className="row">
                 <div className="col-6" style={{ paddingRight: '0px' }}>
                   <h1 className="event-item" style={{ color: 'white' }}><a target="blank" className="event-item" href="https://www.polito.it" style={{ color: 'white' }}>PoliTo</a></h1>

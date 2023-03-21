@@ -333,7 +333,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-image: url("./assets/img/banner-bg.png");
 }
 .skill-bx {
-  backdrop-filter: blur(10px);
+  z-index: 9999 !important;
+  backdrop-filter: blur(2px);
   background: #151515a7;
   border-radius: 64px;
   text-align: center;
@@ -371,7 +372,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Events Css ************/
 
 .event-card {
-  backdrop-filter: blur(10px);
+  z-index: 9999;
+  backdrop-filter: blur(2px);
   background: #151515a7;
   border-radius: 0rem 0rem 0rem 0rem;
   text-align: center;
@@ -602,10 +604,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 50px 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  /* background-image: url('./assets/img/footer-bg.png'); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+    z-index: 99999;
+    background-color: #000000e6;
+    backdrop-filter: blur(2px);
 }
 .newsletter-bx {
   background: #FFFFFF;
