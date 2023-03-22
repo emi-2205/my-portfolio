@@ -34,11 +34,11 @@ export const Skills = () => {
           <div className="col-12" style={{ zIndex: '99999' }}>
             <div className="event-card event-card-begin skill-bx wow zoomIn">
               <div className="row">
-                <div className="col-6" style={{ paddingRight: '0px' }}>
+                <div className="col-lg-6" style={{ paddingRight: '0px' }}>
                   <h1 className="event-item" style={{ color: 'white' }}><a target="blank" className="event-item" href="https://www.polito.it" style={{ color: 'white' }}>PoliTo</a></h1>
                   <h2 className="event-item">2022-Present</h2>
                 </div>
-                <div className="col-6 event-item" style={{ padding: '0px' }}>
+                <div className="col-lg-6 event-item" style={{ padding: '0px' }}>
                   <p style={{ color: 'white', marginTop: '30px', padding: '0px' }} className="p-event">
                     A Master's Degree course in computer engineering, specifically in data analytics and artificial intelligence fields. <br></br>
                     Developed projects:
@@ -53,11 +53,11 @@ export const Skills = () => {
             </div>
             <div className="event-card wow zoomIn">
               <div className="row">
-                <div className="col-6" style={{ paddingRight: '0px' }}>
+                <div className="col-lg-6" style={{ paddingRight: '0px' }}>
                   <h1 className="event-item" style={{ color: 'white' }}><a target="blank" className="event-item" href="https://www.univpm.it/Entra/" style={{ color: 'white' }}>Univpm</a></h1>
                   <h2 className="event-item">2019-2022</h2>
                 </div>
-                <div className="col-6 event-item" style={{ padding: '0px' }}>
+                <div className="col-lg-6 event-item" style={{ padding: '0px' }}>
                   <p style={{ color: 'white', marginTop: '30px', padding: '0px' }} className="p-event">
                     A Bachelor's Degree course in computer and automation engineering. <br></br>
                     Developed projects:
@@ -70,7 +70,11 @@ export const Skills = () => {
                     </ul>
                     Achieved certifications:
                     <ul style={{ color: 'white' }}>
-                      <li>IELTS certification by British Council- B2 Level</li>
+                      <li>IELTS certification by  <a href="https://www.britishcouncil.it" style={{ color: 'white', fontStyle: 'italic' }}>British Council</a> - B2 Level</li>
+                    </ul>
+                    Experiences:
+                    <ul style={{ color: 'white' }}>
+                      <li><a href="https://clab.univpm.it/it" style={{ color: 'white', fontStyle: 'italic' }}>Contamination lab</a> edition #8</li>
                     </ul>
                   </p>
                 </div>
@@ -78,11 +82,11 @@ export const Skills = () => {
             </div>
             <div className="event-card event-card-end wow zoomIn">
               <div className="row">
-                <div className="col-6" style={{ paddingRight: '0px' }}>
+                <div className="col-lg-6" style={{ paddingRight: '0px' }}>
                   <h1 className="event-item" style={{ color: 'white' }}><a target="blank" className="event-item" href="https://www.istitutomontani.edu.it/web/" style={{ color: 'white' }}>Montani</a></h1>
                   <h2 className="event-item">2015-2019</h2>
                 </div>
-                <div className="col-6 event-item" style={{ padding: '0px' }}>
+                <div className="col-lg-6 event-item" style={{ padding: '0px' }}>
                   <p style={{ color: 'white', marginTop: '30px', padding: '0px' }} className="p-event">
                     High school diploma from ITIS in electrical and automatic systems. <br></br>
                     Developed projects:
@@ -91,7 +95,7 @@ export const Skills = () => {
                     </ul>
                     Achieved certifications:
                     <ul style={{ color: 'white' }}>
-                      <li>Comau certification for use and programming of industrial robots</li>
+                      <li><a href="https://www.comau.com/it/competencies/consultancy-education/robotics-license/" style={{ color: 'white', fontStyle: 'italic' }}>Comau</a> certification for use and programming of industrial robots</li>
                     </ul>
                   </p>
                 </div>

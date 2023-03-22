@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline"> 👋 Hello there, my name is Emilio</span>
                 <h1 style= {{color: 'black'}}>{`I'm a student in`} <span className="txt-rotate" dataPeriod="2000" data-rotate='[ "Computer Engineering", "Data Analytics", "Artificial Intelligence" ]'><span className="wrap">{text}</span></span></h1>
                   {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>
