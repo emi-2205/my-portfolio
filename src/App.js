@@ -7,11 +7,13 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 // import './main.built.js';
-
 import React, { Component } from "react";
 import { render } from "react-dom";
 // import MouseParticles from "./react-mouse-particles/index";
 import MouseParticles from "react-mouse-particles";
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-NWKSC6JFP5');
 
 function App() {
   return (
