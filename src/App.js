@@ -42,7 +42,7 @@ function App() {
       <MouseParticles
         g={0.1}
         num={1}
-        radius={25}
+        radius={20}
         alpha={0.65}
         v={1.5} 
         life={0.8}
